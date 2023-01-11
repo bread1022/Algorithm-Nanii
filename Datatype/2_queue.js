@@ -3,10 +3,11 @@
  *
  * 동작원리
  * 1. 삽입은 tail 에서, 삭제는 head 이루어진다 (선입선출 : FIFO = first - in - first - out)
- * 2. 데이터를 넣을 때마다 요소가 이동 (삽입 O(1), 삭제 O(n), 인덱스 증가만)
+ * 2. 데이터를 넣을 때마다 요소가 이동
  * 3. 입력된 순서대로 순차적으로 처리
  * 4. 큐 ADT : head, tail, enqueue, dequeue, isEmpty, size
  * 5. 큐 연산 : enqueue(), dequeue(), isEmpty(), size()
+ * 시간복잡도 : 삽입 O(1), 삭제 O(n), 탐색 O(n)
  * 예시 : BFS탐색, 컴퓨터 버퍼에서 주로 사용, 순차적으로 처리해야하는 분야에서 활용
  */
 
